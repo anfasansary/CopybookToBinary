@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="data"/>
+	<classpathentry kind="src" path="libraries"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/183466/.m2/repository/org/apache/poi/poi/5.0.0/poi-5.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/183466/.m2/repository/org/apache/poi/poi/5.0.0/poi-5.0.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/183466/.m2/repository/org/apache/poi/poi-ooxml/3.15/poi-ooxml-3.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/183466/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/useful_jars/cb2xml-1.01.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/useful_jars/legstar-coxbapi-1.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/useful_jars/commons-io-2.11.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/useful_jars/cb2java-5.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

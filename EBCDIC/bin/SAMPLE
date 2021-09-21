@@ -1,0 +1,30 @@
+000006 01  REC-FACTURE.
+000011     03  FS1                  PIC X.
+000016     03  FS2.
+000021         05  FS2A            PIC 9.
+               05  RFS2B           PIC X(8).
+000026         05  FS2B REDEFINES RFS2B  PIC 9(8).
+000031     03  FS3.
+000036         05  FS3A            PIC 9.
+000041         05  FS3B            PIC X(10).
+000046     03  FS4.
+000051         05  FS4A            PIC 99.
+000056         05  FS4B            PIC 99.
+000061         05  FS4C            PIC 99.
+000066     03  FS5                 PIC X(5).
+000071     03  FS6                 PIC X(20).
+000076     03  FS7                 PIC 9.
+000081     03  FS8                 PIC S9(9)V99    COMP-3.
+000086     03  FS9                 PIC S9(9)V99    COMP-3.
+000091     03  FS10                PIC 9.
+000096     03  FS11                PIC S9(9)V99    COMP-3.
+000101     03  FS12                PIC S9(9)V99    COMP-3.
+000106     03  FS13                PIC S9(9)V99    COMP-3.
+000111     03  FS14-15 OCCURS 10.
+000116         05  FS14            PIC 9.
+000121         05  FS15            PIC S9(9)V99    COMP-3.
+000126         05  FS16            PIC S9(9)V99    COMP-3.
+000131     03  FS17 OCCURS 10       PIC S9(9)V99    COMP-3.
+000136     03 FS18                 PIC 9(6).
+000141     03  FS19                PIC 9.
+000241     03  FILLER              PIC X.
