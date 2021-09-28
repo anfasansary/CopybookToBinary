@@ -22,16 +22,16 @@ public class MainframeConstantChecks {
 		case "S9":
 		case "S99":
 		case "S999":
-			resultText = new String(new char[attrLength-1]).replace("\0", " ").concat("");
+			resultText = new String(new char[attrLength-1]).replace("\0", "\u0000").concat("\u000C");
 			break;
 		case "A":
 			resultText = String.format("%-" + attrLength + "s", jsonArrayData);
 			break;
 		case "S9V9":
-			resultText = new String(new char[attrLength-1]).replace("\0", " ").concat("");
+			resultText = new String(new char[attrLength-1]).replace("\0", "\u0000").concat("\u000C");
 			break;
 		case "S99V999":
-			resultText = new String(new char[attrLength-1]).replace("\0", " ").concat("");
+			resultText = new String(new char[attrLength-1]).replace("\0", "\u0000").concat("\u000C");
 			break;
 		default:
 			resultText = "Error - Constant not found";
