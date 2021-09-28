@@ -1,4 +1,4 @@
-package com.copybookdataviewgenerator;
+package com.mainframe.conversion;
 
 import java.util.Iterator;
 
