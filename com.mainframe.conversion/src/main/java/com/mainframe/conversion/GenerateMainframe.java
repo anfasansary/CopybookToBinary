@@ -35,7 +35,6 @@ public class GenerateMainframe {
 			doc.getDocumentElement().normalize();
 			//System.out.println("Root element: " + doc.getDocumentElement().getNodeName());
 			NodeList nodeList = doc.getElementsByTagName("item");
-			System.out.println(nodeList.getLength());
 			for (int itr = 0; itr < nodeList.getLength(); itr++) {
 				Node elemNode = nodeList.item(itr);
 				if (elemNode.getNodeType() == Node.ELEMENT_NODE) {
@@ -69,6 +68,7 @@ public class GenerateMainframe {
 				}
 				writer.flush();
 			}
+			System.out.println("Success");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

@@ -16,7 +16,7 @@ import net.sf.cb2xml.Cb2Xml;
 
 public class Cb2XmlDom {
 	public void cb2XMLDOM(String fileName) throws Exception {
-		Document cb2doc = Cb2Xml.convertToXMLDOM(new File("C:/Users/183466/workspace/EBCDIC/data/CPRCTPCB.CPY"));
+		Document cb2doc = Cb2Xml.convertToXMLDOM(new File("data/"+fileName));
 		Transformer transformer = TransformerFactory.newInstance().newTransformer();
 		Result output = new StreamResult(new File("results/" + fileName.split("\\.")[0] + ".xml"));
 		Source input = new DOMSource(cb2doc);
